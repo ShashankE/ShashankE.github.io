@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <script>
-      function pushGrades(){
+      function pushProj(){
         window.location = "grades.html"
       }
-      function pushSchudule(){
+      function pushResume(){
         window.location = "schudule.html"
       }
-      function pushAttendence(){
+      function pushContact(){
         window.location = "attendence.html"
       }
     </script>
@@ -22,12 +22,10 @@
 <body>
     <main class="container">
         <article class="grid">
-            <h1>Welcome, test!<br>
-                ~~~~~~~~~~~~~
-            </h1>
-            <input  type="button" id="grades" value="Grades" class="secondary" id="submit" onclick="pushGrades()">
-            <input type="button" id="schudule" value="Schudule" class="secondary" id="submit" onclick="pushSchudule()"> 
-            <input type="button" id="attendence" value="Attendence" class="secondary" id="submit" onclick="pushAttendence()">
+            <h1>Shashank Ekkati</h1>
+            <input type="button" id="projects" value="Code Projects" class="secondary" id="submit" onclick="pushProj()">
+            <input type="button" id="resume" value="Resume" class="secondary" id="submit" onclick="pushResume()"> 
+            <input type="button" id="contact" value="Contact Me" class="secondary" id="submit" onclick="pushContact()">
         </article>
     </main>
 </body>
